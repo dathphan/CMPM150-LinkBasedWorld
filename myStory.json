@@ -1,0 +1,308 @@
+{
+    "Title": "Day to be Over",
+    "Credits": "Created by Damon Phan (dathphan@ucsc.edu).",
+    "InitialLocation": "Morning",
+    "Locations": {
+        "Morning": {
+            "Body": "I wake up after a long night. It's past morning now, but I still feel extremely tired. That can be dealt with later, because it's time to start the day!",
+            "Choices": [
+                {
+                    "Text": "Get out of bed.",
+                    "Target": "Bedroom"
+                },
+                {
+                    "Text": "... or not.",
+                    "Target": "In Bed - Stay"
+                }
+            ]
+        },
+        "In Bed - Stay": {
+            "Body": "I struggle to resist my body's urge to get up. I'm unsuccessful, wrapped in the comfortable and warm confines of my bed. I doze off again, not sure how much time passed. Now it's time to get up.",
+            "Choices": [
+                {
+                    "Text": "Get out of bed.",
+                    "Target": "Bedroom"
+                },
+                {
+                    "Text": "... or not.",
+                    "Target": "In Bed - Stay"
+                }
+            ]
+        },
+        "Bedroom": {
+            "Body": "There's barely any light passing through the windows on this cloudy day. It's hard to believe it's well past morning.",
+            "Choices": [
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go to the Kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                },
+                {
+                    "Text": "Turn on my computer",
+                    "Target": "Bedroom - Turn On"
+                },
+                {
+                    "Text": "Sit at my Desk",
+                    "Target": "Desk - Off"
+                },
+                {
+                    "Text": "Lay in Bed",
+                    "Target": "In Bed - Return"
+                }
+            ]
+        },
+        "Bedroom - Turn On": {
+            "Body": "I turn the computer at my desk on. It's taking a little longer to turn on than usual, but it gets there regardless. It's reliable. I wish I could be a machine.",
+            "Choices": [
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go to the Kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                },
+                {
+                    "Text": "Turn off my computer",
+                    "Target": "Bedroom - Turn Off"
+                },
+                {
+                    "Text": "Sit at my Desk",
+                    "Target": "Desk - On"
+                }
+            ]
+        },
+        "Bedroom - Turn Off": {
+            "Body": "I have some work to do soon, but I turn off my computer. I'll do work once I'm in a better mindset.",
+            "Choices": [
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go to the Kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                },
+                {
+                    "Text": "Turn on computer",
+                    "Target": "Bedroom - Turn On"
+                },
+                {
+                    "Text": "Sit at Desk",
+                    "Target": "Desk - Off"
+                }
+            ]
+        },
+        "Desk - Off": {
+            "Body": "I sit down at my desk, zoning out my monitor's blank screen. my tired reflection stares back, filling me with shame. I want this to end... The computer is off.",
+            "Choices": [
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go to the Kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                },
+                {
+                    "Text": "Turn on computer",
+                    "Target": "Bedroom - Turn On"
+                }
+            ]
+        },
+        "Desk - On": {
+            "Body": "I launch my work applications, but I don't know what I'm doing. I feel lost and unmotivated to do any work. I don't feel like playing anything either. The idea of starting up a game feels daunting.\nAll I did was open and close some windows, and sometimes dragging them around. This is not helping. I need to get off.",
+            "Choices": [
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go to the Kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                },
+                {
+                    "Text": "Turn off computer",
+                    "Target": "Bedroom - Turn Off"
+                }
+            ]
+        },
+        "In Bed - Return": {
+            "Body": "I give up and return to comforts of my bed. I'm not sleepy enough to nap, so I lie browsing on my phone. Too much time passes and I don't feel any better. I should stop.",
+            "Choices": [
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go to the Kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                },
+                {
+                    "Text": "Turn on my computer",
+                    "Target": "Bedroom - Turn On"
+                },
+                {
+                    "Text": "Sit at my Desk",
+                    "Target": "Desk - Off"
+                }
+            ]
+        },
+        "Bathroom": {
+            "Body": "With the taste of bad breath lingering in my mouth, I decide to brush my teeth. I think of showering, but the memory of getting in cold water deters me. I continue brushing far longer than necessary pondering this dilemma. I'll shower later.",
+            "Brush": "I return to the bathroom staring at the shower. As much as it would help me, I got other things to do first. A shower can wait.",
+            "Choices": [
+                {
+                    "Text": "Go to the Bedroom",
+                    "Target": "Bedroom"
+                },
+                {
+                    "Text": "Go to the Kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                }
+            ]
+        },
+        "Kitchen": {
+            "Body": "Entering the kitchen, I start feeling hungry. I approach the fridge looking at what's there to eat. There's not much and I'll need to go grocery shopping soon. I can't wait another day.",
+            "Choices": [
+                {
+                    "Text": "Cook some Pasta",
+                    "Target": "Kitchen - Pasta"
+                },
+                {
+                    "Text": "Get some instant Ramen",
+                    "Target": "Kitchen - Ramen"
+                },
+                {
+                    "Text": "Go to the Bedroom",
+                    "Target": "Bedroom"
+                },
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                }
+            ]
+        },
+        "Kitchen - Pasta": {
+            "Body": "I got a new pasta shape I've been wanting to try out and a new sauce recipe that I've been craving. \nBut, I'm missing one of the ingredients. Usually I would substitute, but I dread having to cook and then clean all those dishes... Guess I'm not craving it today. Time for something else.",
+            "Choices": [
+                {
+                    "Text": "Get some instant Ramen",
+                    "Target": "Kitchen - Ramen"
+                },
+                {
+                    "Text": "Go to the Bedroom",
+                    "Target": "Bedroom"
+                },
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                }
+            ]
+        },
+        "Kitchen - Ramen": {
+            "Brush": "I instead go to the closet and grab a pack of ramen. On a better day, I would add seared spam, seaweed, boiled vegetables, a soft-boiled egg, and a bunch of my own seasoning. \nToday is not that kind of day. Boiling the water already feels like too much work for me, but at least I did it. The food is not much and a little bland, but at least I didn't have to cook or clean.",
+            "Body": "That normally sounds appealing, but not right now. I realize how much my breath stinks and I don't want even think about food anymore.",
+            "Choices": [
+                {
+                    "Text": "Go to the Bedroom",
+                    "Target": "Bedroom"
+                },
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go outside",
+                    "Target": "Outside"
+                }
+            ]
+        },
+        "Outside": {
+            "Body": "I need groceries really badly, but I'm too hungry to set out.",
+            "Food" : "As I push myself to go, I look out the window and notice the sidewalk getting painted in small dark circular patches. It's raining. I have enough food, groceries will have to wait another day.",
+            "Choices": [
+                {
+                    "Text": "Go to the Bedroom",
+                    "Target": "Bedroom"
+                },
+                {
+                    "Text": "Go to the Bathroom",
+                    "Target": "Bathroom"
+                },
+                {
+                    "Text": "Go to the Kitchen",
+                    "Target": "Kitchen"
+                }
+            ]
+        },
+        "Clock": {
+            "Text": "Check the clock.",
+            "Target": "Late"
+        },
+        "Late": {
+            "Body": "The time completely shocks me. I can't believe how absurdly late it is already. I'm tired anyways. If I don't want to waste the next day too, I just have to go to bed now.",
+            "Choices": [
+                {
+                    "Text": "Go to Bed",
+                    "Target": "Good Night"
+                }
+            ]
+        },
+        "Good Night": {
+            "Body": "I get in bed, staring at the ceiling. I reflect back on this unincredibly unproductive day. I got nothing done, couldn't even take care of myself, and just spent the whole day feeling bad. I turn to my side and close my eyes, hoping for some comfort. None of that matters anymore. I just want this day to be over.",
+            "Choices": [
+                {
+                    "Text": "Wake Up",
+                    "Target": "Morning"
+                },
+                {
+                    "Text": "End it",
+                    "Target": "End"
+                }
+            ]
+        },
+        "End": {
+            "Body": "Thank you for playing."
+        }
+    }
+}
